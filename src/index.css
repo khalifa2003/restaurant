@@ -1,0 +1,95 @@
+:root {
+  --main-color: rgb(66, 66, 255);
+}
+.bg {
+  background-color: var(--main-color) !important;
+}
+.color-body {
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+.font {
+  font-family: "Almarai", sans-serif;
+  font-family: "Cairo", sans-serif;
+}
+.title {
+  color: blue;
+  font-family: Almarai;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 64px;
+}
+.underline {
+  height: 1px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid var(--main-color);
+}
+.btn-index {
+  color: #000;
+  font-size: 25px;
+  border: 1px solid var(--main-color);
+  background-color: #fff;
+  border-radius: 5px;
+  height: 36px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.btn-index:hover {
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--main-color);
+}
+.img {
+  height: 180px;
+  width: 160px !important;
+  border-radius: 5px;
+}
+.item-description {
+  color: #c8c8c8;
+  font-family: Almarai;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.item-title {
+  color: #555;
+  font-family: Almarai;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.item-title:hover {
+  color: var(--main-color);
+}
+.card-color {
+  background-color: #f8f8f8;
+}
+.item-price {
+  font-family: Almarai;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  color: var(--main-color) !important;
+  letter-spacing: 0;
+  line-height: 20px !important;
+}
+.btn-search {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.btn-search:hover {
+  background-color: var(--main-color);
+  border-color: #fff;
+  color: #fff;
+}
+.brand-color {
+  color: var(--main-color);
+}
